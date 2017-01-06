@@ -110,7 +110,7 @@ static void update_time() {
   static char day_buffer[10];
   static char ampm_buffer[10];
   
-  //strftime(s_buffer, sizeof(s_buffer), clock_is_24h_style() ? "%H:%M" : "%I:%M", tick_time);
+  //strftime(s_buffer, sizeof(s_buffer), clock_is_24h_style() ? "%H:%M" : "%I:%M", tick_time); //24hr format
   strftime(s_buffer, sizeof(s_buffer), "%I:%M", tick_time);
   strftime(date_buffer, sizeof(date_buffer), "%D", tick_time);
   strftime(day_buffer, sizeof(day_buffer), "%A", tick_time);

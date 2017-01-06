@@ -1,0 +1,40 @@
+{
+    "author": "johnrenielcaluag1009@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "simplewatchface_jrc",
+    "pebble": {
+        "displayName": "SimpleWatchface_JRC",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/data-unifon1.ttf",
+                    "name": "FONT_DATA_CONTROL_26",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Semi-Coder-Regular.otf",
+                    "name": "FONT_SEMI_CODER_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/data-unifon.ttf",
+                    "name": "FONT_DATA_CONTROL_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "uuid": "4c030c1b-1ad4-49b7-b3fd-42e9e784c942",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}

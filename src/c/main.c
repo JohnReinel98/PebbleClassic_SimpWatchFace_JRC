@@ -39,7 +39,7 @@ static void main_window_load(Window *window) {
   window_set_background_color(s_main_window, GColorBlack);
   s_time_layer = text_layer_create(GRect(0,10,144,50));
   s_date_layer = text_layer_create(GRect(0,105,144,37));
-  s_day_layer = text_layer_create(GRect(40,83,144,20));
+  s_day_layer = text_layer_create(GRect(0,83,144,20));
   s_ampm_layer = text_layer_create(GRect(0,61,144,20));
   s_developer_layer = text_layer_create(GRect(0,150,144,20));
   s_background_layer = bitmap_layer_create(bounds);
@@ -58,6 +58,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_alignment(s_time_layer, GTextAlignmentCenter);
   text_layer_set_text_alignment(s_developer_layer, GTextAlignmentCenter);
   text_layer_set_text_alignment(s_date_layer, GTextAlignmentCenter);
+  text_layer_set_text_alignment(s_day_layer, GTextAlignmentCenter);
   text_layer_set_text_alignment(s_ampm_layer, GTextAlignmentCenter);
   
   // Create GFont
